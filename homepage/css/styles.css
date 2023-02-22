@@ -1,0 +1,123 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#nav {
+    font-family: 'Arima', cursive;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+#title {
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, blue, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    object-fit: contain;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    max-width: 75vw;
+    margin: 50px auto;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 60vw;
+}
+
+section h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: #4b4be3;
+}
+
+section h4 {
+    font-weight: bold;
+}
+
+section p {
+    font-size: x-large;
+}
+
+section blockquote {
+    font-size: x-large;
+    font-style: italic;
+    padding-left: 10px;
+    color: gray;
+    border-left: gray 4px solid;
+    margin: 1rem 0;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.card-body {
+    font-size: x-large;
+}
+
+.btn {
+    font-size: x-large;
+    margin: 8px 8px;
+    padding: 8px 15px;
+    border-radius: 0.7rem;
+}
+/* ===== FOOTER ===== */
+.footer {
+  padding: 5rem 5rem 2rem;
+  color: var(--secondary-text-color);
+  font-size: .85rem;
+  text-align: center;
+}
+
+/* === SOCIAL LINKS */
+.social {
+  margin-bottom: 2rem;
+}
+
+.social__icon {
+  height: 3rem;
+  width: 3rem;
+  border: .2rem solid var(--secondary-text-color);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.social__icon:nth-of-type(2) {
+  margin: 0 2rem;
+}
+
+.social__icon:hover {
+  background-color: var(--secondary-text-color);
+  color: var(--background-color);
+}
+
+
+@media (max-width: 992px) {
+    main {
+        max-width: 85vw;
+    }
+    section {
+        max-width: 75vw;
+    }
+}
